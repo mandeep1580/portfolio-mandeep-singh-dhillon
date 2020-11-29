@@ -1,0 +1,25 @@
+import React, { Component } from 'react'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Button from 'react-bootstrap/Button'
+
+export default class Overview extends Component {
+    render() {
+        return (
+            <div className='col-lg-8 col-md-8 mt-3'>
+                <Jumbotron>
+            <h1>Overview</h1>
+            <p>
+            Exposed to a multicultural professional setting in India and with an extensive experience of 18+ yearsin Organisational Behaviour, Training and Development,Quality Compliance, Adventure Tourism and Service Industry. I have gained a multi-dimensional profile enabling me to drive change in organisations through culture, analytics and learning.
+            To further hone my skills and understanding in the field of best business practices, I completed a professional graduate level certification course in Organisational Behaviour at Harvard University - Extension School,alumni Aug, 2017.
+            Aim: I envision to create a model for organisations to grow, by bringing continuous change, drive development and harness sustainability.
+            Strength: My blend of analytics, behavioural sciences, outdoors and the service industry makes me extremely strong in driving change through scientific methods and building cultures by motivating people through engagement techniques. I am passionate about achieving excellence at workplace and motivated to gain better knowledge by following the continuous process of learning. 
+            Leadership qualities and meticulous planning in starting new projects with proven track record. One of my greatest strength is my ability to build relationships with in and outside an organisation which includes executives, management teams and professional staff. 
+            </p>
+            <p>
+              <Button variant="primary">Contact Me</Button>
+            </p>
+            </Jumbotron>
+            </div>
+        )
+    }
+}
