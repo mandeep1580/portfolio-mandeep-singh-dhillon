@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Banner from './Banner'
+import Hero from './Hero'
 import Navigation from './Navigation'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Overview from './Overview';
-import Profile from './Profile';
 import Skills from './Skills';
 import Resume from './Resume';
 import Contact from './Contact';
+import Footer from './Footer';
 
 
 
@@ -15,12 +15,12 @@ export default class App extends Component {
     return (
       <div className = "App">
       <Navigation />
-      <Banner />
+      <Hero />
       <Overview />
-      <Profile />
       <Skills />
       <Resume />
       <Contact />
+      <Footer />
            
         
       </div>  

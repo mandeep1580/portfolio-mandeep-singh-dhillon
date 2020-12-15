@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Button from 'react-bootstrap/Button'
+import { Row, Col, Image } from 'react-bootstrap'
+
+
 
 export default class Overview extends Component {
     render() {
         return (
+            <div className = 'container'>
+            <Row>
             <div className='col-lg-8 col-md-8 mt-3'>
-                <Jumbotron>
             <h1>Overview</h1>
             <p>
             Exposed to a multicultural professional setting in India and with an extensive experience of 18+ yearsin Organisational Behaviour, Training and Development,Quality Compliance, Adventure Tourism and Service Industry. I have gained a multi-dimensional profile enabling me to drive change in organisations through culture, analytics and learning.
@@ -15,10 +17,11 @@ export default class Overview extends Component {
             Strength: My blend of analytics, behavioural sciences, outdoors and the service industry makes me extremely strong in driving change through scientific methods and building cultures by motivating people through engagement techniques. I am passionate about achieving excellence at workplace and motivated to gain better knowledge by following the continuous process of learning. 
             Leadership qualities and meticulous planning in starting new projects with proven track record. One of my greatest strength is my ability to build relationships with in and outside an organisation which includes executives, management teams and professional staff. 
             </p>
-            <p>
-              <Button variant="primary">Contact Me</Button>
-            </p>
-            </Jumbotron>
+            </div>
+            <Col xs={6} md={4}>
+                <Image src="images/self.jpg" rounded />
+            </Col>
+            </Row>
             </div>
         )
     }

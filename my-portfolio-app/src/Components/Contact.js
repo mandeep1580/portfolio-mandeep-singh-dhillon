@@ -7,6 +7,7 @@ export default class Contact extends Component {
         return (
 
             <form id="contact-form" >
+                <div className = 'container' >
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" className="form-control" />
@@ -20,6 +21,7 @@ export default class Contact extends Component {
                     <textarea className="form-control" rows="5"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
+                </div>
             </form>
            
         
