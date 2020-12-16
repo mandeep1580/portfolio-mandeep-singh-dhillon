@@ -9,7 +9,7 @@ export default class Navigation extends Component {
     render() {
         return (
             
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" >
             <Navbar.Brand href="#home">Mandeep Dhillon</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -29,3 +29,4 @@ export default class Navigation extends Component {
         )
     }
 }
+// 

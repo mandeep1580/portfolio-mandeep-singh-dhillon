@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
+import '../App.css';
 
 
 

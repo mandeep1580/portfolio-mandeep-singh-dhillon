@@ -1,13 +1,25 @@
-.App {
-  text-align: center;
+.big-image{
 
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../src/images/banner.jpg");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlay{
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 10;
+  left: 10;
+  background: rgba(0,0,0,0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }

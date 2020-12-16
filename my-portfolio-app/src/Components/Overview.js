@@ -19,7 +19,7 @@ export default class Overview extends Component {
             </p>
             </div>
             <Col xs={6} md={4}>
-                <Image src="images/self.jpg" rounded />
+                <Image src="self.jpg" rounded />
             </Col>
             </Row>
             </div>
