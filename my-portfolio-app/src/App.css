@@ -13,13 +13,31 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 10;
-  left: 10;
+  top: 0;
+  left: 0;
   background: rgba(0,0,0,0.65);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+}
+
+.profile{
+
+  height:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: gray;
+  border-style: solid;
+
+
+}
+
+.logo{
+  
 
 }
