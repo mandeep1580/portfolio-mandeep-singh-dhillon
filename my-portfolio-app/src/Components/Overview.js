@@ -5,9 +5,11 @@ export default class Overview extends Component {
     render() {
         return (
             <div className="container">
-            <Row>
-            <div className='overview col-lg-8 col-md-8 col-sm-12 mt-5'>
+            <div className="heading">    
             <h1>Overview</h1>
+            </div>
+            <Row>
+            <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
             <p>
             Exposed to a multicultural professional setting in India and with an extensive experience of 18+ years in <strong>Organisational Behaviour, Training and Development,Quality Compliance, Adventure Tourism and Service Industry</strong>. I have gained a multi-dimensional profile enabling me to drive change in organisations through culture, analytics and learning.
             To further hone my skills and understanding in the field of best business practices, I completed a professional graduate level certification course in Organisational Behaviour at Harvard University - Extension School,alumni Aug, 2017.
