@@ -3,7 +3,6 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import Link from 'react-bootstrap/NavLink'
 
 
-
 export default class Hero extends Component {
     render() {
         return (
