@@ -2,49 +2,55 @@ import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import CardGroup from 'react-bootstrap/CardGroup'
-import { BsFillAlarmFill } from "react-icons/bs";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BsCodeSlash } from "react-icons/bs";
+import { IoPeopleSharp } from "react-icons/io5"
 
 export default class services extends Component {
     render() {
         return (
             <div className="container">
-               <CardGroup>
-                    <Card style={{ width: '18rem' }}>
-                    <h1><BsFillAlarmFill /></h1>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                <div className="services">
+                    <    CardGroup>
+                        <Card
+                            bg='info'>
+                            <div className= "icon"><AiOutlineFundProjectionScreen /></div>
+                            <Card.Body>
+                                <Card.Title>Project Management</Card.Title>
+                                <Card.Text>
+                                Leadership qualities and meticulous planning in starting new projects with proven track record.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                    </Card>
+                            </Card.Body>
+                        </Card>
 
-                    <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        <Card
+                            bg='danger'>
+                            <div className= "icon"><BsCodeSlash /></div>
+                            <Card.Body>
+                                <Card.Title>Web Development</Card.Title>
+                                <Card.Text>
+                                    Domain expertise in Full Stack Development with a strong foundation in multiple emerging web and mobile application.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                    </Card>
-                
-                  <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+
+                            </Card.Body>
+                        </Card>
+
+                        <Card 
+                        bg='primary'>
+                            <div className= "icon"><IoPeopleSharp /></div>
+                            <Card.Body>
+                                <Card.Title>Organisational Behaviour</Card.Title>
+                                <Card.Text>
+                                Insight into strategies cultivating and strengthening group performance, resource management and organizational dynamics.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                    </Card>
-                </CardGroup>
+
+                            </Card.Body>
+                        </Card>
+                    </CardGroup>
+                </div>
+                <div className="button">
+                    <Button variant="success" style={{ justifyContent: "centered" }}>Learn More</Button>
+                </div>
             </div>
         )
     }
