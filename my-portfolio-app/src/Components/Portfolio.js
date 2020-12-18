@@ -8,29 +8,27 @@ export default class Portfolio extends Component {
         return (
             
             <div className="container">
-            <hr></hr>
             <div className="heading">    
             <h1>Portfolio</h1>
+            <hr></hr>
             </div>
-                          
+            <div className="portfolio">              
             <CardColumns>
                 <Card>
                     <Card.Img variant="top" src= "images/parlez.png" />
                     <Card.Body>
-                    <Card.Title>Card title that wraps to a new line</Card.Title>
+                    <Card.Title>Parlez</Card.Title>
                     <Card.Text>
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                        A chat room app made with <strong>React and DotNet</strong>
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Img variant="top" src="images/tmdb.png"/>
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>The Movie App</Card.Title>
                     <Card.Text>
-                        This card has supporting text below as a natural lead-in to additional
-                        content.
+                        An api based movie app made with <strong>React</strong>
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -38,26 +36,21 @@ export default class Portfolio extends Component {
                 <Card>
                     <Card.Img variant="top" src="images/walkabooks.png"/>
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Walkabooks</Card.Title>
                     <Card.Text>
-                        This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                        An ecommerce app made with <strong>Angular</strong>
                     </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
                 </Card>
 
                 <Card bg="success" text="white" className="text-center p-3">
                     <blockquote className="blockquote mb-0 card-body">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                        erat a ante.
+                        Intellectual growth should commence at birth and cease only at death.
                     </p>
                     <footer className="blockquote-footer">
                         <small className="text-muted">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
+                        Albert Einstine
                         </small>
                     </footer>
                     </blockquote>
@@ -66,37 +59,25 @@ export default class Portfolio extends Component {
                 <Card>
                     <Card.Img src="images/bc-tourism.png" />
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>BC Tourism</Card.Title>
                     <Card.Text>
-                        This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                        An information app made with <strong>HTML and CSS</strong>
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
-                    <Card.Img src="images/adventurescapes.png" />
-                    <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    </Card.Body>
-                </Card>
-                
+
                 <Card>
                 <Card.Img src="images/adventurescapes.png" />
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Adventure Escapes</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to
-                        show that equal height action.
-                    </Card.Text>
-                    <Card.Text>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        An adventure tourism app
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 </CardColumns>
             </div>
-                
+            </div>
             
         )
     }
