@@ -4,8 +4,22 @@ import Container from 'react'
 
 export default class Contact extends Component {
     render() {
-        return (
+    
+        // validateForm() {
+        //     var x = document.forms["contact-form"]["fname"].value;
+        //     if (x == "") {
+        //       alert("Name must be filled out");
+        //       return false;
+        //     }
+        //   }
 
+        return (
+            <div className="container">
+            <div className="heading">    
+            <h1>Contact</h1>
+            <hr></hr>
+            </div>
+            <div className="contact">
             <form id="contact-form" >
                 <div className = 'container' >
                 <div className="form-group">
@@ -20,9 +34,11 @@ export default class Contact extends Component {
                     <label htmlFor="message">Message</label>
                     <textarea className="form-control" rows="5"></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary" text-align="centre">Submit</button>
                 </div>
             </form>
+            </div>
+            </div>
            
         
             

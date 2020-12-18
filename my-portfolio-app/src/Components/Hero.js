@@ -1,20 +1,30 @@
 import React, { Component } from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
+import { AiOutlineLinkedin } from "react-icons/ai";
+import Link from 'react-bootstrap/NavLink'
 
 
 export default class Hero extends Component {
     render() {
         return (
-         
-                  <div class="hero-image">
-                    <div class="hero-text">
-                        <h1>I am John Doe</h1>
-                        <p>And I'm a Photographer</p>
-                        <button>Hire me</button>
+                    
+              <div className="big-image">
+                   
+                  <div className= "overlay">
+                    <div className= "logo">
+                        <img src="images/logo.png" alt="logo"/>
+                        
+                    <div className = "hero-text">
+                        <h1>I am Mandeep Dhillon</h1>
+                        <h3>Web Developer, Entreprenuer, Adventurer and Consultant </h3></div>
+                        <Link href="https://www.linkedin.com/in/mandeep-singh-dhillon/"
+                        className= "social"><AiOutlineLinkedin/>
+                        </Link>
                     </div>
-                    </div>
+                    
+                    </div> 
+              </div>                
+            
+                
                 )
     }
 }
