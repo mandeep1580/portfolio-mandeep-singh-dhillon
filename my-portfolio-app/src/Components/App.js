@@ -8,23 +8,25 @@ import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
 import '../App.css';
-
+import Portfolio from './Portfolio';
+import Services from './Services'
 
 
 export default class App extends Component {
   render() {
     return (
-      <div className = "App">
+    <div className = "App">
       <Navigation />
       <Hero />
+      <Services />
+      <Portfolio />
       <Overview />
       <Skills />
       <Resume />
       <Contact />
       <Footer />
            
-        
-      </div>  
+    </div>  
     )
   }
 }
