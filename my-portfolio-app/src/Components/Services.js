@@ -5,6 +5,7 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
 import { IoPeopleSharp } from "react-icons/io5"
+import Link from "react-bootstrap/NavLink"
 
 export default class services extends Component {
     render() {
@@ -49,8 +50,11 @@ export default class services extends Component {
                     </CardGroup>
                 </div>
                 <div className="button">
+                <Link href="/resume">
+                                             
                     <Button variant="success" style={{ justifyContent: "centered" }}>Learn More</Button>
-                </div>
+                
+                </Link></div>
             </div>
         )
     }

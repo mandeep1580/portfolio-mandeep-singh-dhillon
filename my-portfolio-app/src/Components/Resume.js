@@ -9,6 +9,7 @@ export default class Resume extends Component {
         <div className= "heading">
             <h1>Experience</h1>
         </div>
+        <hr></hr>
      
         <Timeline lineColor={'#000000'}>
         <TimelineItem

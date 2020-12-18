@@ -15,7 +15,7 @@ export default class Hero extends Component {
                         
                     <div className = "hero-text">
                         <h1>I am Mandeep Dhillon</h1>
-                        <h3>Adventurer, Entreprenuer, Consultant and Web Developer</h3></div>
+                        <h3>Web Developer, Entreprenuer, Adventurer and Consultant </h3></div>
                         <Link href="https://www.linkedin.com/in/mandeep-singh-dhillon/"
                         className= "social"><AiOutlineLinkedin/>
                         </Link>

@@ -1,23 +1,14 @@
 .App{
-  background-color:white;
+  /* background-color:lightgray; */
   font-family:sans-serif;
-  margin:0;
+  margin-right: auto;
+  margin-left: auto;
   padding:0;
-}
-
-.nav-section{
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  display: flex;
-  background-color: transparent;
-  color: white;
-
 }
 
 .big-image{
 
-  height: 80vh;
+  height: 65vh;
   width:inherit;
   position: relative;
   background-size: cover;
@@ -55,7 +46,14 @@
 }
 
 .logo{
+  margin-top:auto;
+  margin-bottom: auto;
+  text-align: center;
   
+}
+
+.hero-text{
+  text-align: center;
 }
 
 .heading{
@@ -67,9 +65,37 @@
 }
 
 .services{
-  color: brown;
+  color: white;
+  text-align: center;
+  margin-top:0;
 }
 
-.container{
-  /* background-color: white; */
+.button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.icon{
+  font-size:60px;
+}
+
+.social{
+  font-size:40px;
+  color: white;
+}
+
+.portfolio{
+  text-align: center;
+
+}
+
+.footer{
+  background-color:rgb(52, 58, 64);
+  text-align: center;
+  color: white;
+}
+
+.submit{
+  text-align: center;
 }
