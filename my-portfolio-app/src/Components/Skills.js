@@ -8,6 +8,7 @@ export default class Skills extends Component {
             <div className = 'container'>
                 <div className= "heading">
                 <h1>Skills</h1>
+                <hr></hr>
                 </div>
                 <Row>
             <div className= 'skills col-lg-6 col-md-6 col-sm-12'>

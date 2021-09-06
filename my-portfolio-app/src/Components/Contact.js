@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Container from 'react'
+// import Container from 'react'
 
 
 export default class Contact extends Component {

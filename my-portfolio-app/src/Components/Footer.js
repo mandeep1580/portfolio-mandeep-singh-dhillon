@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import Link from 'react-bootstrap/NavLink'
 
 export default class Footer extends Component {
     render() {
         return (
-            <div className="footer">
-            <footer className="section-footer mt-5">
-            <Link href="https://www.linkedin.com/in/mandeep-singh-dhillon/"
-                        className= "social"><AiOutlineLinkedin/>
-                        </Link>
+                <footer className="footer" fixed="bottom">
+                    <Link href="https://www.linkedin.com/in/mandeep-singh-dhillon/" className= "social"><AiOutlineLinkedin/>
+                    </Link>
+                    <Link href="https://github.com/mandeep1580" className= "social" ><AiOutlineGithub/> </Link>
+                
                 <section class="footer-bottom border-top row">
                     <div class="col-md-2">
                         <p class="text-muted"> &copy; 2020 Mandeep Dhillon </p>
@@ -21,7 +21,6 @@ export default class Footer extends Component {
                     </div>
                  </section>
             </footer>
-        </div>
         )
     }
 }
