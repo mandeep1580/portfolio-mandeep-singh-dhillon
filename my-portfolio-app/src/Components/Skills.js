@@ -45,7 +45,7 @@ export default class Skills extends Component {
             </Row>
                 
             <div className="button">
-                    <Link href="/resume">                                            
+                    <Link href="/experience">                                            
                         <Button variant="success" style={{ justifyContent: "centered" }}>Work Experience</Button>
                     </Link>
                 </div>
