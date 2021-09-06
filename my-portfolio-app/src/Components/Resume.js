@@ -4,8 +4,8 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 export default class Resume extends Component {
   render() {
     return (
-      
-      <div className= "container">
+      <div className="content-container">
+         <div className= "container">
         <div className= "heading">
             <h1>Experience</h1>
         </div>
@@ -131,6 +131,8 @@ export default class Resume extends Component {
                        
             
       </div>
+      </div>
+
     )
   }
 }

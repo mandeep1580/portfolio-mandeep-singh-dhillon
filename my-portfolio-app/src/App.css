@@ -1,14 +1,15 @@
 .App{
-  /* background-color:lightgray; */
   font-family:sans-serif;
   margin-right: auto;
   margin-left: auto;
   padding:0;
 }
 
+/* Styling for home page */
+
 .big-image{
 
-  height: 65vh;
+  height: 100vh;
   width:inherit;
   position: relative;
   background-size: cover;
@@ -17,23 +18,45 @@
 }
 
 .overlay{
-
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.70);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
+}
+
+.hero-content{
+  justify-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logo{
+  text-align: center;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 
-.profile{
+.hero-text{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.profile{
   height:auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -41,19 +64,6 @@
   margin-right: auto;
   border-color: gray;
   border-style: solid;
-
-
-}
-
-.logo{
-  margin-top:auto;
-  margin-bottom: auto;
-  text-align: center;
-  
-}
-
-.hero-text{
-  text-align: center;
 }
 
 .heading{
@@ -61,7 +71,6 @@
   margin-top: 20px;
   margin-bottom: 10px;
   color: gray;
-  
 }
 
 .services{
@@ -81,8 +90,9 @@
 }
 
 .social{
-  font-size:40px;
+  font-size:50px;
   color: white;
+  display:inline-flex;
 }
 
 .portfolio{
@@ -90,10 +100,20 @@
 
 }
 
+.content-container {
+  min-height: calc(100vh - 120px);
+}
+
 .footer{
   background-color:rgb(52, 58, 64);
   text-align: center;
   color: white;
+  left:0;
+  bottom:0;
+  right:0;
+  width:100%;
+  height: 120px;
+  position:relative;
 }
 
 .submit{
