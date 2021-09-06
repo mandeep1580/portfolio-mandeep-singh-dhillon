@@ -26,8 +26,8 @@ export default class About extends Component {
                             <ul> 
                                 <li>Focused software developer with strong foundation in full stack web development and experience
                                 programming on various platforms.</li>
-                                <li>Management professional and entrepreneur for over 20 years of work experience.</li>
-                                <li>Conducted over 5000+ man-hours in experiential learning workshops with covering over 7,000
+                                <li>Management professional and entrepreneur with over 20 years of working experience.</li>
+                                <li>Conducted 5000+ man-hours in experiential learning workshops with covering over 7,000
                                 participants.</li>
                             </ul>
                             <strong>Strengths:</strong>
