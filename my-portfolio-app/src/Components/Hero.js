@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import Link from 'react-bootstrap/NavLink';
-import Overview from './Overview';
+import Overview from './About';
 
 
 export default class Hero extends Component {
     render() {
         return (       
-        <div>      
+        <div className="content-container">      
             <div className="big-image">   
                 <div className= "overlay">
                     <aside className = "hero-content">
@@ -16,7 +16,6 @@ export default class Hero extends Component {
                         </div>
                         <div className = "hero-text">
                             <h1>I am Mandeep Dhillon</h1>
-                            <h4>Web Developer, Entreprenuer, Consultant and Adventurer </h4>
                             <div className = "social">
                                 <Link 
                                     href="https://www.linkedin.com/in/mandeep-singh-dhillon/"><AiOutlineLinkedin/>
