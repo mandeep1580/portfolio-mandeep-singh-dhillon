@@ -9,6 +9,9 @@ export default class services extends Component {
     render() {
         return (
             <div className="container">
+                <div className="heading">    
+                   <h1>Overview</h1>
+                </div>
                 <div className="services">
                     <    CardGroup>
                         <Card
@@ -47,6 +50,7 @@ export default class services extends Component {
                         </Card>
                     </CardGroup>
                 </div>
+                <hr></hr>
             </div>
         )
     }
