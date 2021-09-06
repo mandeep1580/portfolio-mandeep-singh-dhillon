@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import Hero from './Hero'
 import Navigation from './Navigation'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Overview from './Overview'
-// import Skills from './Skills'
+import About from './About'
+import Skills from './Skills'
 import Resume from './Resume'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -20,13 +20,13 @@ export default class App extends Component {
       <Router>
       <Navigation />
       <Route path="/" exact><Hero />
-      <Overview />      
+      <Services />
+      <Skills />
       </Route>
       <Route path="/portfolio"><Portfolio /></Route>
-      {/* <Route path="/overview"><Overview />
-      <Skills /> */}
-      {/* </Route> */}
-      <Route path= "/resume"><Resume /></Route>
+      <Route path="/about"><About />
+      </Route>
+      <Route path= "/experience"><Resume /></Route>
       <Route path= "/contact"><Contact /></Route>
       <Footer />
       </Router>
