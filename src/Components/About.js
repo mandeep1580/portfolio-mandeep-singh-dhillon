@@ -43,7 +43,7 @@ export default class About extends Component {
                     <Row>
                          
                         <div className = "profile">    
-                            <img src="images/bcit.png" alt="bcit"/>
+                            <img src="images/bcit.jpg" alt="bcit"/>
                         </div>
                         <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
                             
