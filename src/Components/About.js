@@ -38,13 +38,16 @@ export default class About extends Component {
                             </ul>                   
                         </div>
                     </Row>
+
                     <hr></hr>
                     <strong >Alumnus</strong>
+                   
                     <Row>
-                         
-                        <div className = "profile">    
-                            <img src="images/bcit.jpg" alt="bcit"/>
+                        <div className = "alumnus">
+                                <img src="images/bcit.jpg" alt="bcit"/>
+                                <img src="images/harvard.png" alt="harvard" />
                         </div>
+
                         <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
                             
                             <strong>Aim:</strong>

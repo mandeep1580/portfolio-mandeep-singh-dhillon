@@ -66,6 +66,18 @@
   border-style: solid;
 }
 
+.alumnus{
+  height:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: gray;
+  border-style: solid;
+  display:grid;
+  vertical-align: middle;
+}
+
 .heading{
   text-align: center;
   margin-top: 20px;
