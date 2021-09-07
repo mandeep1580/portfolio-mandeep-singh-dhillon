@@ -5,8 +5,8 @@ import Nav from 'react-bootstrap/Nav'
 export default class Navigation extends Component {
     render() {
         return (
-            
-            <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" >
+
+            <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" sticky="top">
                     <Navbar.Brand href="/">Mandeep Dhillon</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

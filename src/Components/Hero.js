@@ -15,7 +15,7 @@ export default class Hero extends Component {
                             <img src="images/logo.png" alt="logo"/>
                         </div>
                         <div className = "hero-text">
-                            <h1>I am Mandeep Dhillon</h1>
+                            <h1>Mandeep Dhillon</h1>
                             <div className = "social">
                                 <Link 
                                     href="https://www.linkedin.com/in/mandeep-singh-dhillon/"><AiOutlineLinkedin/>
