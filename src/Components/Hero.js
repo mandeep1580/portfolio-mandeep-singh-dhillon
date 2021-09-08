@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import Link from 'react-bootstrap/NavLink';
-import Overview from './About';
-
 
 export default class Hero extends Component {
     render() {
