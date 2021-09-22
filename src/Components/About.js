@@ -14,10 +14,10 @@ export default class About extends Component {
                 <div className="container">
                     <div className="heading">
                         <h1>About me</h1>
-                        <hr></hr>
+
                     </div>
                     <div className="container">
-                        <Row>
+                        <Row className="about-card">
                             <div className="profile">
                                 <img src="images/self.jpg" alt="Mandeep Profile" />
                             </div>
@@ -41,11 +41,10 @@ export default class About extends Component {
                             </div>
                         </Row>
 
-                        <hr></hr>
-
-                        <strong >Alumnus</strong>
-
-                        <Row className="mt-4">
+                        <div className="heading">
+                            <h3>Alumnus</h3>
+                        </div>
+                        <Row className="about-card">
                             <div className="alumnus">
                                 <p>2019 - 2020</p>
                                 <img src={bcit} alt="bcit" />
@@ -53,7 +52,7 @@ export default class About extends Component {
 
                             <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
 
-                                <strong>Software Systems Developer - Certificate</strong>
+                                <h5>Software Systems Developer - Certificate</h5>
                                 <p> The program provided a strong foundation in multiple emerging web and mobile application development tools and technologies </p>
 
                                 <ul>
@@ -67,7 +66,7 @@ export default class About extends Component {
 
                         </Row>
 
-                        <Row className="mt-4">
+                        <Row className="about-card">
 
                             <div className="alumnus">
                                 <p>2016 - 2017</p>
@@ -76,7 +75,7 @@ export default class About extends Component {
 
                             <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
 
-                                <strong>Organisational Behaviour - Certificate</strong>
+                                <h5>Organisational Behaviour - Certificate</h5>
                                 <p> The program provided insight into strategies and methods that cultivate and strengthen group performance, resource management, and organizational dynamics. </p>
 
                                 <ul>
@@ -89,7 +88,7 @@ export default class About extends Component {
                             </div>
                         </Row>
 
-                        <Row className="mt-4">
+                        <Row className="about-card">
                             <div className="alumnus">
                                 <p>1997 - 2000</p>
                                 <img src={ahla} alt="ahla" />
@@ -97,7 +96,7 @@ export default class About extends Component {
 
                             <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
 
-                                <strong>Hospitality Management - Diploma</strong>
+                                <h5>Hospitality Management - Diploma</h5>
                                 <p> The course provided a comprehensive overview of the specific areas needed to succeed in managing a hospitality operation. </p>
 
                             </div>
@@ -105,7 +104,7 @@ export default class About extends Component {
 
                     </div>
                     <div className="button">
-                        <Link href="/portfolio">
+                        <Link href="/portfolio2">
                             <Button variant="primary">Portfolio</Button>
                         </Link>
                     </div>
