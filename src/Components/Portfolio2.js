@@ -13,46 +13,39 @@ export default class portfolio2 extends Component {
                     </div>
                     <Row className="portfolio">
                         <Websites
-                            img="images/parlez.png"
-                            name="Parlez"
-                            tech="React"
-                            website="https://parlezz.netlify.app"
-                            github="https://github.com/mandeep1580/cookit-mandeep1580"
+                            img="images/tmdb.png"
+                            name="The Movie App"
+                            tech=" Api based app - React"
+                            website="https://determined-mcclintock-b7a166.netlify.app/"
+                            github="https://github.com/mandeep1580/my-movie-app"
+                        />
+                        <Websites
+                            img="images/walkabooks.png"
+                            name="Walkabooks"
+                            tech="Front End - Angular"
+                            website="https://walkabooks.netlify.app"
+                            github="https://github.com/mandeep1580/front-end-project-group6-front-end-project.git"
+                        />
+                        <Websites
+                            img="images/nomadic-compass.png"
+                            name="Nomadic Compass"
+                            tech="Fullstack - MERN"
+                            website="https://nervous-montalcini-fcf9b8.netlify.app/"
+                            github="https://github.com/mandeep1580/nomadic-compass.git"
                         />
                         <Websites
                             img="images/parlez.png"
                             name="Parlez"
-                            tech="Angular"
+                            tech="Fullstack app - React and .Net"
                             website="https://parlezz.netlify.app"
-                            github="https://github.com/mandeep1580/cookit-mandeep1580"
+                            github="https://github.com/mandeep1580/dotnetproject-team1_netproject"
                         />
                         <Websites
-                            img="images/parlez.png"
-                            name="Parlez"
-                            tech="Fullstack"
-                            website="https://parlezz.netlify.app"
-                            github="https://github.com/mandeep1580/cookit-mandeep1580"
-                        />
-                        <Websites
-                            img="images/parlez.png"
-                            name="Parlez"
-                            tech="Serverless"
-                            website="https://parlezz.netlify.app"
-                            github="https://github.com/mandeep1580/cookit-mandeep1580"
-                        />
-                        <Websites
-                            img="images/parlez.png"
-                            name="Parlez"
-                            tech="Kotlin"
-                            website="https://parlezz.netlify.app"
-                            github="https://github.com/mandeep1580/cookit-mandeep1580"
-                        />
-                        <Websites
-                            img="images/parlez.png"
-                            name="Parlez"
-                            tech="Swift"
-                            website="https://parlezz.netlify.app"
-                            github="https://github.com/mandeep1580/cookit-mandeep1580"
+                            img="images/jot-it-down.png"
+                            name="Jot It Down"
+                            tech="Fullstack - Serverless"
+                            website=""
+                            github="https://github.com/mandeep1580/front-end-jotitdown.git"
                         />
                     </Row>
 
