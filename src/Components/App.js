@@ -8,7 +8,8 @@ import Resume from './Resume'
 import Contact from './Contact'
 import Footer from './Footer'
 import '../App.css'
-import Portfolio from './Portfolio'
+// import Portfolio from './Portfolio'
+import Portfolio2 from './Portfolio2'
 import Services from './Services'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -16,22 +17,23 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 export default class App extends Component {
   render() {
     return (
-    <div className = "App">
-      <Router>
-      <Navigation />
-      <Route path="/" exact><Hero />
-      <Services />
-      <Skills />
-      </Route>
-      <Route path="/portfolio"><Portfolio /></Route>
-      <Route path="/about"><About />
-      </Route>
-      <Route path= "/experience"><Resume /></Route>
-      <Route path= "/contact"><Contact /></Route>
-      <Footer />
-      </Router>
-            
-    </div>  
+      <div className="App">
+        <Router>
+          <Navigation />
+          <Route path="/" exact><Hero />
+            <Services />
+            <Skills />
+          </Route>
+          {/* <Route path="/portfolio"><Portfolio /></Route> */}
+          <Route path="/portfolio2"><Portfolio2 /></Route>
+          <Route path="/about"><About /></Route>
+          <Route path="/experience"><Resume /></Route>
+          <Route path="/contact"><Contact /></Route>
+ 
+          <Footer />
+        </Router>
+
+      </div>
     )
   }
 }
