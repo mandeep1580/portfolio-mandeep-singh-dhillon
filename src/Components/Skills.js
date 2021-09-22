@@ -11,8 +11,8 @@ export default class Skills extends Component {
                 <div className="heading">
                     <h1>Skills</h1>
                 </div>
-                <Row>
-                    <div className='skills col-lg-6 col-md-6 col-sm-12'>
+                <Row className="about-card">
+                    <div className='skills col-lg-6 col-md-6 col-sm-12 mb-4'>
                         <div className="heading">
                             <h3>Technical</h3>
                         </div>
@@ -27,7 +27,7 @@ export default class Skills extends Component {
                         <h5>RESTful Web API's</h5>
                         <ProgressBar variant="primary" now={50} />
                     </div>
-                    <div className='skills col-lg-6 col-md-6 col-sm-12'>
+                    <div className='skills col-lg-6 col-md-6 col-sm-12 mb-4'>
                         <div className="heading">
                             <h3>Emotional</h3>
                         </div>
@@ -43,6 +43,7 @@ export default class Skills extends Component {
                         <ProgressBar variant="primary" now={80} />
                     </div>
                 </Row>
+
 
                 <div className="button">
                     <Link href="/about">
