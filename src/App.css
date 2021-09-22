@@ -25,7 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
 .hero-content {
@@ -56,28 +55,27 @@
 
 .profile {
   height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  border-color: gray;
-  border-style: solid;
 }
 
 .alumnus {
   height: auto;
   margin-top: 20px;
-  margin-bottom: auto;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  /* vertical-align: middle; */
 }
 
 .heading {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   color: gray;
 }
 
@@ -88,14 +86,11 @@
 }
 
 .button {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-}
-
-.portfolio-button {
-  /* align-items: left; */
-  margin-left: 0px;
 }
 
 .icon {
@@ -108,9 +103,9 @@
   display: inline-flex;
 }
 
-.portfolio {
-  text-align: center;
-}
+/* .portfolio {
+  float: left;
+} */
 
 .content-container {
   min-height: calc(100vh - 120px);
@@ -130,4 +125,33 @@
 
 .submit {
   text-align: center;
+}
+
+.card {
+  height: auto;
+  width: 18rem;
+  margin-top: 40px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #DCDCDC;
+  background-color: whitesmoke;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.button-card {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
