@@ -50,7 +50,7 @@ export default class services extends Component {
                         </Card>
                     </CardGroup>
                 </div>
-                <hr></hr>
+
             </div>
         )
     }

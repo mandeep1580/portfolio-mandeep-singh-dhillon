@@ -1,35 +1,33 @@
-.App{
-  font-family:sans-serif;
+.App {
+  font-family: sans-serif;
   margin-right: auto;
   margin-left: auto;
-  padding:0;
+  padding: 0;
 }
 
 /* Styling for home page */
 
-.big-image{
-
+.big-image {
   height: 100vh;
-  width:inherit;
+  width: inherit;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
   background-image: url("../src/images/banner.jpg");
 }
 
-.overlay{
+.overlay {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.70);
+  background: rgba(0, 0, 0, 0.70);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
-.hero-content{
+.hero-content {
   justify-items: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -39,16 +37,7 @@
   padding-right: 5px;
 }
 
-.logo{
-  text-align: center;
-  margin-top:auto;
-  margin-bottom: auto;
-  margin-right: auto;
-  margin-left: auto;
-
-}
-
-.hero-text{
+.logo {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -56,65 +45,113 @@
   margin-left: auto;
 }
 
-.profile{
-  height:auto;
+.hero-text {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile {
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  border-color: gray;
-  border-style: solid;
 }
 
-.heading{
-  text-align: center;
+.alumnus {
+  height: auto;
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
   color: gray;
 }
 
-.services{
+.services {
   color: white;
   text-align: center;
-  margin-top:0;
+  margin-top: 0;
 }
 
-.button{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.icon{
-  font-size:60px;
+.icon {
+  font-size: 60px;
 }
 
-.social{
-  font-size:50px;
+.social {
+  font-size: 50px;
   color: white;
-  display:inline-flex;
+  display: inline-flex;
 }
 
-.portfolio{
-  text-align: center;
-
-}
+/* .portfolio {
+  float: left;
+} */
 
 .content-container {
   min-height: calc(100vh - 120px);
 }
 
-.footer{
-  background-color:rgb(52, 58, 64);
+.footer {
+  background-color: rgb(52, 58, 64);
   text-align: center;
   color: white;
-  left:0;
-  bottom:0;
-  right:0;
-  width:100%;
-  position:relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
 }
 
-.submit{
+.submit {
   text-align: center;
+}
+
+.card {
+  height: auto;
+  width: 18rem;
+  margin-top: 40px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #DCDCDC;
+  background-color: whitesmoke;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.button-card {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
