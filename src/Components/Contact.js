@@ -1,60 +1,55 @@
-// import React, { Component } from 'react'
-// // import EmailKey from './ContactA';
+import React, { useRef } from 'react'
+import emailjs from 'emailjs-com';
+// import { Input } from 'react-advanced-form-addons'
+require('dotenv').config();
 
 
-// export default class Contact extends Component {
-//     render() {
-    
-//         // validateForm() {
-//         //     var x = document.forms["contact-form"]["fname"].value;
-//         //     if (x == "") {
-//         //       alert("Name must be filled out");
-//         // //       return false;
-//         // //     }
-//         // //   }
-//         // function onSubmit() {
-//         //     const handleSubmit = (e) => {
-//         //         e.preventDefault(); // Prevents default refresh by the browser
-//         //         Emailkey.sendForm(`gmail`, apiKey.ACCESS_TOKEN, e.target, apiKey.USER_ID)
-//         //         .then((result) => {
-//         //         alert("Message Sent, We will get back to you shortly", result.text);
-//         //         },
-//         //         (error) => {
-//         //         alert("An error occurred, Please try again", error.text);
-//         //         });
-//         //         };
-//         // }
+export const Contact = () => {
 
-//         return (
-//             <div className="content-container">
-//                 <div className="container">
-//                     <div className="heading">    
-//                         <h1>Contact</h1>
-//                         <hr></hr>
-//                     </div>
-//                     <div className="contact">
-//                         <form id="contact-form" >
-//                             <div className = 'container' >
-//                                 <div className="form-group">
-//                                     <label htmlFor="name">Name</label>
-//                                     <input type="text" className="form-control" />
-//                                 </div>
-//                                 <div className="form-group">
-//                                     <label htmlFor="exampleInputEmail1">Email address</label>
-//                                     <input type="email" className="form-control" aria-describedby="emailHelp" />
-//                                 </div>
-//                                 <div className="form-group">
-//                                     <label htmlFor="message">Message</label>
-//                                     <textarea className="form-control" rows="5"></textarea>
-//                                 </div>
-//                                 <button type="submit" className="btn btn-primary" text-align="centre" onClick="onSubmit">Submit</button>
-//                             </div>
-//                         </form>
-//                     </div>
-//                 </div>
-//             </div>           
-        
-            
-//         )
-//     }
-// }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID,
+      form.current, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
+  return (
+
+    <div className="content-container">
+      <div className="container">
+        <div className="heading">
+          <h1>Contact</h1>
+          <hr></hr>
+        </div>
+        <div className="contact">
+          <form ref={form} onSubmit={sendEmail} >
+            <div className='container' >
+              <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input type="text" className="form-control" name="user_name" />
+              </div>
+              <div className="form-group">
+                <label htmlFor="exampleInputEmail1">Email address</label>
+                <input type="email" className="form-control" name="user_email" />
+              </div>
+              <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea className="form-control" rows="5" name="message"></textarea>
+              </div>
+              <button type="submit" className="btn btn-primary" text-align="centre">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
