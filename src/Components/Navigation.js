@@ -15,7 +15,9 @@ export default class Navigation extends Component {
                         {/* <Nav.Link href="/portfolio">Portfolio</Nav.Link>   */}
                         <Nav.Link href="/portfolio2">Portfolio</Nav.Link>
                         <Nav.Link href="/experience">Experience</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
+                        {/* <Nav.Link href="/contact">Contact</Nav.Link> */}
+                        <Nav.Link href="/email">Contact</Nav.Link>
+
 
                     </Nav>
                 </Navbar.Collapse>
