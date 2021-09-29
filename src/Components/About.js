@@ -104,7 +104,7 @@ export default class About extends Component {
 
                     </div>
                     <div className="button">
-                        <Link href="/portfolio2">
+                        <Link href="/portfolio">
                             <Button variant="primary">Portfolio</Button>
                         </Link>
                     </div>
