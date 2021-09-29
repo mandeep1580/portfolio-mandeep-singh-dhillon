@@ -21,12 +21,9 @@ export const Contact = () => {
   };
 
   return (
-
     <div className="content-container">
-      <div className="container">
         <div className="heading">
           <h1>Contact</h1>
-          <hr></hr>
         </div>
         <div className="contact">
           <form ref={form} onSubmit={sendEmail} >
@@ -47,7 +44,6 @@ export const Contact = () => {
             </div>
           </form>
         </div>
-      </div>
     </div>
   )
 }

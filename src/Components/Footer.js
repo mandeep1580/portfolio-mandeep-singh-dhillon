@@ -5,21 +5,19 @@ import Link from 'react-bootstrap/NavLink'
 export default class Footer extends Component {
     render() {
         return (
-                <footer className="footer" fixed="bottom">
-                    <Link href="https://www.linkedin.com/in/mandeep-singh-dhillon/" className= "social"><AiOutlineLinkedin/>
-                    </Link>
-                    <Link href="https://github.com/mandeep1580" className= "social" ><AiOutlineGithub/> </Link>
-                
-                <section class="footer-bottom border-top row">
-                    <div class="col-md-2">
-                        <p class="text-muted"> &copy; 2020 Mandeep Dhillon </p>
-                    </div>
-                    <div class="col-md-8 text-md-center">
-                        <span class="px-2">mandeep15@gmail.com</span>
-                        <span class="px-2">+778-814-3204</span>
-                        <span class="px-2">7180, 11th Avenue, Burnaby, Vancouver, BC</span>
-                    </div>
-                 </section>
+            <footer className="footer" fixed="bottom">
+                <Link href="https://www.linkedin.com/in/mandeep-singh-dhillon/" className="social"><AiOutlineLinkedin />
+                </Link>
+                <Link href="https://github.com/mandeep1580" className="social" ><AiOutlineGithub /> </Link>
+
+                <div className="footer-info">
+                    <i>+778-814-3204</i>
+                    <br></br>
+                    <a href="mailto:mandeep15@gmail.com">mandeep15@gmail.com</a>
+                    <br></br>
+                    <i>7180, 11th Avenue, Burnaby, Vancouver, BC</i>
+                </div>
+                <p className="copyright text-muted"> &copy; 2020 Mandeep Dhillon </p>
             </footer>
         )
     }

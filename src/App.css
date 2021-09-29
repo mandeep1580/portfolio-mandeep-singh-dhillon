@@ -86,7 +86,7 @@
 }
 
 .button {
-  margin-top: 25px;
+  margin-top: 55px;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -101,14 +101,25 @@
   font-size: 50px;
   color: white;
   display: inline-flex;
+  align-items: flex-start;
 }
 
-/* .portfolio {
-  float: left;
-} */
+.contact {
+  justify-content: right;
+}
 
 .content-container {
   min-height: calc(100vh - 120px);
+}
+
+.footer-info {
+  text-align: center;
+  border-top: antiquewhite;
+  margin-top: 1rem;
+}
+
+.copyright {
+  margin-top: 2rem;
 }
 
 .footer {
@@ -120,7 +131,8 @@
   right: 0;
   width: 100%;
   position: relative;
-  margin-top: 40px;
+  padding-top: 2rem;
+  padding-bottom: .25rem;
 }
 
 .submit {
