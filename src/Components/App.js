@@ -5,13 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import About from './About'
 import Skills from './Skills'
 import Resume from './Resume'
-import Contact from './Contact'
+// import Contact from './Contact'
 import Footer from './Footer'
 import '../App.css'
 // import Portfolio from './Portfolio'
 import Portfolio2 from './Portfolio2'
 import Services from './Services'
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { ContactA } from './ContactA'
 
 
 export default class App extends Component {
@@ -28,8 +29,10 @@ export default class App extends Component {
           <Route path="/portfolio2"><Portfolio2 /></Route>
           <Route path="/about"><About /></Route>
           <Route path="/experience"><Resume /></Route>
-          <Route path="/contact"><Contact /></Route>
- 
+          {/* <Route path="/contact"><Contact /></Route> */}
+          <Route path="/email"><ContactA /></Route>
+
+
           <Footer />
         </Router>
 
