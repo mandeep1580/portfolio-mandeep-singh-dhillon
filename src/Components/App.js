@@ -6,10 +6,10 @@ import About from './About'
 import Skills from './Skills'
 import Footer from './Footer'
 import '../App.css'
-import Portfolio2 from './Portfolio2'
+import Portfolio from './Portfolio'
 import Services from './Services'
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { ContactA } from './ContactA'
+import { Contact } from './Contact'
 import Experience from './Experience'
 
 
@@ -23,12 +23,10 @@ export default class App extends Component {
             <Services />
             <Skills />
           </Route>
-          {/* <Route path="/portfolio"><Portfolio /></Route> */}
-          <Route path="/portfolio2"><Portfolio2 /></Route>
+          <Route path="/portfolio"><Portfolio /></Route>
           <Route path="/about"><About /></Route>
           <Route path="/experience"><Experience /></Route>
-          {/* <Route path="/contact"><Contact /></Route> */}
-          <Route path="/email"><ContactA /></Route>
+          <Route path="/contact"><Contact /></Route>
 
 
           <Footer />
