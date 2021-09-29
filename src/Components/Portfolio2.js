@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Websites from './Websites'
 import { Row } from 'react-bootstrap'
+import Button from 'react-bootstrap/Button'
+import Link from "react-bootstrap/NavLink"
 
 
 export default class portfolio2 extends Component {
@@ -49,6 +51,11 @@ export default class portfolio2 extends Component {
                         />
                     </Row>
 
+                </div>
+                <div className="button">
+                    <Link href="/experience">
+                        <Button variant="primary">Portfolio</Button>
+                    </Link>
                 </div>
 
             </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
-export default class Resume extends Component {
+export default class Experience extends Component {
   render() {
     return (
       <div className="content-container">
