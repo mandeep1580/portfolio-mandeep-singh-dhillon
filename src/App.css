@@ -105,7 +105,12 @@
 }
 
 .contact {
-  justify-content: right;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contact-form {
+  max-height: fit-content;
 }
 
 .content-container {

@@ -22,28 +22,28 @@ export const Contact = () => {
 
   return (
     <div className="content-container">
-        <div className="heading">
-          <h1>Contact</h1>
-        </div>
-        <div className="contact">
-          <form ref={form} onSubmit={sendEmail} >
-            <div className='container' >
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input type="text" className="form-control" name="user_name" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Email address</label>
-                <input type="email" className="form-control" name="user_email" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea className="form-control" rows="5" name="message"></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary" text-align="centre">Submit</button>
+      <div className="heading">
+        <h1>Contact</h1>
+      </div>
+      <div className="contact">
+        <form className="contact-form" ref={form} onSubmit={sendEmail} >
+          <div className='container' >
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" className="form-control" name="user_name" />
             </div>
-          </form>
-        </div>
+            <div className="form-group">
+              <label htmlFor="exampleInputEmail1">Email address</label>
+              <input type="email" className="form-control" name="user_email" />
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Message</label>
+              <textarea className="form-control" rows="3" name="message"></textarea>
+            </div>
+          </div>
+        </form>
+      <button type="submit" className="btn btn-primary mt-6" text-align="centre">Submit</button>
+      </div>
     </div>
   )
 }
