@@ -54,7 +54,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="button">
                     <Link href="/experience">
-                        <Button variant="primary">Portfolio</Button>
+                        <Button variant="danger">Experience</Button>
                     </Link>
                 </div>
 

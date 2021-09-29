@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import Button from 'react-bootstrap/Button'
+import Link from "react-bootstrap/NavLink"
 
 export default class Experience extends Component {
   render() {
@@ -9,7 +11,6 @@ export default class Experience extends Component {
           <div className="heading">
             <h1>Experience</h1>
           </div>
-          <hr></hr>
 
           <Timeline lineColor={'#000000'}>
             <TimelineItem
@@ -127,6 +128,11 @@ export default class Experience extends Component {
               </p>
             </TimelineItem>
           </Timeline>
+        </div>
+        <div className="button">
+          <Link href="https://drive.google.com/file/d/1HjF716_W3gpuJ097S4RC0D7b5_IhHbSs/view?usp=sharing">
+            <Button variant="warning">Download Resume</Button>
+          </Link>
         </div>
       </div>
 
