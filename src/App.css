@@ -107,10 +107,25 @@
 .contact {
   text-align: center;
   margin-top: 3rem;
+  display: block;
+  text-align: center;
 }
 
 .contact-form {
   max-height: fit-content;
+}
+
+.form-control{
+  width: 50rem;
+  margin: auto;
+  text-align: center;
+}
+
+#thank-you {
+  font-size: large;
+  display: block;
+  text-align: center;
+  margin-top: 3rem;
 }
 
 .content-container {
