@@ -47,7 +47,7 @@ export default class Skills extends Component {
 
                 <div className="button">
                     <Link href="/about">
-                        <Button variant="success">About Me</Button>
+                        <Button variant="primary">About Me</Button>
                     </Link>
                 </div>
             </div>

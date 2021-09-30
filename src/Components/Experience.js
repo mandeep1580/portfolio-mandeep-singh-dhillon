@@ -131,7 +131,7 @@ export default class Experience extends Component {
         </div>
         <div className="button">
           <Link href="https://drive.google.com/file/d/1HjF716_W3gpuJ097S4RC0D7b5_IhHbSs/view?usp=sharing">
-            <Button variant="warning">Download Resume</Button>
+            <Button variant="primary">Download Resume</Button>
           </Link>
         </div>
       </div>
