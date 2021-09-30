@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com';
-// import { Input } from 'react-advanced-form-addons'
 require('dotenv').config();
 
 
@@ -18,6 +17,10 @@ export const Contact = () => {
       }, (error) => {
         console.log(error.text);
       });
+
+    document.getElementById("contact").reset();
+    document.getElementById("thank-you").innerHTML = "Thank you for your message!";
+
   };
 
   return (
@@ -26,7 +29,7 @@ export const Contact = () => {
         <h1>Contact</h1>
       </div>
       <div className="contact">
-        <form className="contact-form" ref={form} onSubmit={sendEmail} >
+        <form id="contact" className="contact-form" ref={form} onSubmit={sendEmail} >
           <div className='container' >
             <div className="form-group">
               <label htmlFor="name">Name</label>
@@ -41,9 +44,10 @@ export const Contact = () => {
               <textarea className="form-control" rows="3" name="message"></textarea>
             </div>
           </div>
+          <button type="submit" className="btn btn-primary mt-6" text-align="centre" >Submit</button>
         </form>
-      <button type="submit" className="btn btn-primary mt-6" text-align="centre">Submit</button>
       </div>
+      <i id="thank-you"></i>
     </div>
   )
 }
