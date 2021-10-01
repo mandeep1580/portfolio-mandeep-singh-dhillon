@@ -134,6 +134,8 @@ export default class Experience extends Component {
             <Button variant="primary">Download Resume</Button>
           </Link>
         </div>
+        <hr className = "page-break"></hr>
+
       </div>
 
     )

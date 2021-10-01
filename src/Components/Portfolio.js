@@ -52,11 +52,12 @@ export default class Portfolio extends Component {
                     </Row>
 
                 </div>
-                <div className="button">
+                {/* <div className="button">
                     <Link href="/experience">
                         <Button variant="primary">Experience</Button>
                     </Link>
-                </div>
+                </div> */}
+                <hr className = "page-break"></hr>
 
             </div>
 

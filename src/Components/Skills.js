@@ -45,11 +45,13 @@ export default class Skills extends Component {
                 </Row>
 
 
-                <div className="button">
+                {/* <div className="button">
                     <Link href="/about">
                         <Button variant="primary">About Me</Button>
                     </Link>
-                </div>
+                </div> */}
+            <hr className = "page-break"></hr>
+
             </div>
 
         )

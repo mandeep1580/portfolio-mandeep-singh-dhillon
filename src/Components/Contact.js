@@ -48,6 +48,7 @@ export const Contact = () => {
         </form>
       </div>
       <i id="thank-you"></i>
+      
     </div>
   )
 }

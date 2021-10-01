@@ -53,6 +53,14 @@
   margin-left: auto;
 }
 
+.page-break{
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  border-top: dotted 3px;
+  width: 10%;
+  color: lightgrey;
+}
+
 .profile {
   height: auto;
   padding-top: 15px;
@@ -116,7 +124,6 @@
 }
 
 .form-control{
-  width: 50rem;
   margin: auto;
   text-align: center;
 }
@@ -128,9 +135,9 @@
   margin-top: 3rem;
 }
 
-.content-container {
+/* .content-container {
   min-height: calc(100vh - 120px);
-}
+} */
 
 .footer-info {
   text-align: center;
