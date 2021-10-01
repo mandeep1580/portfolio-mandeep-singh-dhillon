@@ -22,12 +22,16 @@ export default class App extends Component {
           <Route path="/" exact><Hero />
             <Services />
             <Skills />
+            <About />
+            <Portfolio />
+
+            <Experience />
+            <Contact />
           </Route>
           <Route path="/portfolio"><Portfolio /></Route>
           <Route path="/about"><About /></Route>
           <Route path="/experience"><Experience /></Route>
           <Route path="/contact"><Contact /></Route>
-
 
           <Footer />
         </Router>
