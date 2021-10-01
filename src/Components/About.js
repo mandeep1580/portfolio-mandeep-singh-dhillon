@@ -18,10 +18,6 @@ export default class About extends Component {
                     </div>
                     <div className="container">
                         <Row className="about-card">
-                            <div className="profile">
-                                <img src="images/self.jpg" alt="Mandeep Profile" />
-                            </div>
-
                             <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
 
                                 <strong>Overview:</strong>
@@ -39,16 +35,16 @@ export default class About extends Component {
                                     <li>Ability to build relationships with in and outside an organisation which includes executives, management teams and professional staff.</li>
                                 </ul>
                             </div>
+
+                            <div className="profile">
+                                <img src="images/self.jpg" alt="Mandeep Profile" />
+                            </div>
                         </Row>
 
                         <div className="heading">
                             <h3>Alumnus</h3>
                         </div>
                         <Row className="about-card">
-                            <div className="alumnus">
-                                <p>2019 - 2020</p>
-                                <img src={bcit} alt="bcit" />
-                            </div>
 
                             <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
 
@@ -63,15 +59,15 @@ export default class About extends Component {
                                 </ul>
 
                             </div>
-
+                            <div className="alumnus">
+                                <p>2019 - 2020</p>
+                                <img src={bcit} alt="bcit" />
+                            </div>
                         </Row>
 
                         <Row className="about-card">
 
-                            <div className="alumnus">
-                                <p>2016 - 2017</p>
-                                <img src={harvard} alt="harvard" />
-                            </div>
+
 
                             <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
 
@@ -86,29 +82,35 @@ export default class About extends Component {
                                 </ul>
 
                             </div>
+
+                            <div className="alumnus">
+                                <p>2016 - 2017</p>
+                                <img src={harvard} alt="harvard" />
+                            </div>
                         </Row>
 
                         <Row className="about-card">
+
+                            <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
+                                <h5>Hospitality Management - Diploma</h5>
+                                <p> The course provided a comprehensive overview of the specific areas needed to succeed in managing a hospitality operation. </p>
+                            </div>
+
                             <div className="alumnus">
                                 <p>1997 - 2000</p>
                                 <img src={ahla} alt="ahla" />
                             </div>
 
-                            <div className="col-lg-8 col-md-8 col-sm-12 mt-3">
-
-                                <h5>Hospitality Management - Diploma</h5>
-                                <p> The course provided a comprehensive overview of the specific areas needed to succeed in managing a hospitality operation. </p>
-
-                            </div>
                         </Row>
 
                     </div>
-                    <div className="button">
+                    {/* <div className="button">
                         <Link href="/portfolio">
                             <Button variant="primary">Portfolio</Button>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
+                <hr className="page-break"></hr>
 
             </div>
         )
