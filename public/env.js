@@ -187,7 +187,7 @@ window.env = {
   "npm_package_description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "npm_package_eslintConfig_extends_0": "react-app",
   "npm_package_eslintConfig_extends_1": "react-app/jest",
-  "npm_package_gitHead": "ce614c32cc168a1eb305cc7cb763a76420ead1d8",
+  "npm_package_gitHead": "429e37f17f3be330084e7b66922b6b94bb93bc48",
   "npm_package_name": "my-portfolio-app",
   "npm_package_private": "true",
   "npm_package_readmeFilename": "README.md",
