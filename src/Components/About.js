@@ -3,14 +3,14 @@ import { Row } from 'react-bootstrap'
 import bcit from '../images/bcit.png'
 import harvard from '../images/harvard.png'
 import ahla from '../images/ahla.jpg'
-import Button from 'react-bootstrap/Button'
-import Link from "react-bootstrap/NavLink"
+// import Button from 'react-bootstrap/Button'
+// import Link from "react-bootstrap/NavLink"
 
 
 export default class About extends Component {
     render() {
         return (
-            <div className="content-container">
+            <div className="content-container" href="#about">
                 <div className="container">
                     <div className="heading">
                         <h1>About me</h1>
@@ -103,6 +103,8 @@ export default class About extends Component {
 
                         </Row>
 
+                        <hr className="page-break"></hr>
+
                     </div>
                     {/* <div className="button">
                         <Link href="/portfolio">
@@ -110,7 +112,6 @@ export default class About extends Component {
                         </Link>
                     </div> */}
                 </div>
-                <hr className="page-break"></hr>
 
             </div>
         )

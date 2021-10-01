@@ -128,14 +128,13 @@ export default class Experience extends Component {
               </p>
             </TimelineItem>
           </Timeline>
+          <div className="button">
+            <Link href="https://drive.google.com/file/d/1HjF716_W3gpuJ097S4RC0D7b5_IhHbSs/view?usp=sharing">
+              <Button variant="primary">Download Resume</Button>
+            </Link>
+          </div>
+          <hr className="page-break"></hr>
         </div>
-        <div className="button">
-          <Link href="https://drive.google.com/file/d/1HjF716_W3gpuJ097S4RC0D7b5_IhHbSs/view?usp=sharing">
-            <Button variant="primary">Download Resume</Button>
-          </Link>
-        </div>
-        <hr className = "page-break"></hr>
-
       </div>
 
     )

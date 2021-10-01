@@ -93,6 +93,11 @@
   margin-top: 0;
 }
 
+/* .service-card {
+  height: 17rem;
+  margin: auto;
+} */
+
 .button {
   margin-top: 55px;
   margin-bottom: 25px;
@@ -135,9 +140,9 @@
   margin-top: 3rem;
 }
 
-/* .content-container {
+.content-container {
   min-height: calc(100vh - 120px);
-} */
+}
 
 .footer-info {
   text-align: center;

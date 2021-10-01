@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Row } from 'react-bootstrap'
 import ProgressBar from 'react-bootstrap/ProgressBar'
-import Button from 'react-bootstrap/Button'
-import Link from "react-bootstrap/NavLink"
+// import Button from 'react-bootstrap/Button'
+// import Link from "react-bootstrap/NavLink"
 
 export default class Skills extends Component {
     render() {
@@ -12,7 +12,7 @@ export default class Skills extends Component {
                     <h1>Skills</h1>
                 </div>
                 <Row className="about-card">
-                    <div className='skills col-lg-6 col-md-6 col-sm-12 mb-4'>
+                    <div className='skills col-lg-6 col-md-12 col-sm-12 mb-4'>
                         <div className="heading">
                             <h3>Technical</h3>
                         </div>
@@ -27,7 +27,7 @@ export default class Skills extends Component {
                         <h5>RESTful Web API's</h5>
                         <ProgressBar variant="primary" now={50} />
                     </div>
-                    <div className='skills col-lg-6 col-md-6 col-sm-12 mb-4'>
+                    <div className='skills col-lg-6 col-md-12 col-sm-12 mb-4'>
                         <div className="heading">
                             <h3>Emotional</h3>
                         </div>

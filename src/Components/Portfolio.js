@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Websites from './Websites'
 import { Row } from 'react-bootstrap'
-import Button from 'react-bootstrap/Button'
-import Link from "react-bootstrap/NavLink"
+// import Button from 'react-bootstrap/Button'
+// import Link from "react-bootstrap/NavLink"
 
 
 export default class Portfolio extends Component {
@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                             github="https://github.com/mandeep1580/front-end-project-group6-front-end-project.git"
                         />
                         <Websites
-                            img="images/nomadic-compass.png"
+                            img="images/nomadic-compass.jpg"
                             name="Nomadic Compass"
                             tech="Fullstack - MERN"
                             website="https://nervous-montalcini-fcf9b8.netlify.app/"
@@ -51,13 +51,15 @@ export default class Portfolio extends Component {
                         />
                     </Row>
 
+                    <hr className="page-break"></hr>
+
                 </div>
                 {/* <div className="button">
                     <Link href="/experience">
                         <Button variant="primary">Experience</Button>
                     </Link>
                 </div> */}
-                <hr className = "page-break"></hr>
+
 
             </div>
 

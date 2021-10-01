@@ -25,30 +25,33 @@ export const Contact = () => {
 
   return (
     <div className="content-container">
-      <div className="heading">
-        <h1>Contact</h1>
+      <div className="container">
+        <div className="heading">
+          <h1>Contact</h1>
+        </div>
+        <div className="contact">
+          <form id="contact" className="contact-form" ref={form} onSubmit={sendEmail} >
+            <div className='container' >
+              <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input type="text" className="form-control" name="user_name" />
+              </div>
+              <div className="form-group">
+                <label htmlFor="exampleInputEmail1">Email address</label>
+                <input type="email" className="form-control" name="user_email" />
+              </div>
+              <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea className="form-control" rows="3" name="message"></textarea>
+              </div>
+            </div>
+            <button type="submit" className="btn btn-primary mt-6" text-align="centre" >Submit</button>
+          </form>
+          <i id="thank-you"></i>
+          <hr className="page-break"></hr>
+        </div>
       </div>
-      <div className="contact">
-        <form id="contact" className="contact-form" ref={form} onSubmit={sendEmail} >
-          <div className='container' >
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" name="user_name" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" name="user_email" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea className="form-control" rows="3" name="message"></textarea>
-            </div>
-          </div>
-          <button type="submit" className="btn btn-primary mt-6" text-align="centre" >Submit</button>
-        </form>
-      </div>
-      <i id="thank-you"></i>
-      
+
     </div>
   )
 }
