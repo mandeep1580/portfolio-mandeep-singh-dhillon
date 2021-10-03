@@ -10,15 +10,16 @@ export default class Websites extends Component {
     render() {
         return (
             <Card className="websites col-lg-3 col-md-6 col-sm-12">
-                <img className= "proj-image " src={this.props.img} alt="" />
-                <h5 className="text-muted mt-3">{this.props.name}</h5>
+                <img className= "proj-image" src={this.props.img} alt="" />
+                <hr></hr>
+                <h5 className="text-muted mt-1">{this.props.name}</h5>
                 <p className="text muted mt-1">{this.props.tech}</p>
-                <Row className="button-card ">
+                <Row className="proj_button">
                     <Link href={this.props.website}>
-                        <Button variant="success"> <AiOutlineLink /> Visit Site</Button>
+                        <Button variant="success"> <AiOutlineLink />Visit Site</Button>
                     </Link>
                     <Link href={this.props.github}>
-                        <Button variant="dark"> <AiOutlineGithub /> Github</Button>
+                        <Button variant="dark"> <AiOutlineGithub />Github</Button>
                     </Link>
                 </Row>
             </Card>

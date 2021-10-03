@@ -1,8 +1,17 @@
+/* Root app styling */
+
 .App {
   font-family: sans-serif;
   margin-right: auto;
   margin-left: auto;
   padding: 0;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: gray;
 }
 
 .page-break {
@@ -13,7 +22,52 @@
   margin-top: 50px;
 }
 
-/* Styling for home page */
+/* Navigation and Footer */
+
+.nav-menu {
+  margin-left: auto;
+}
+
+.footer {
+  background-color: rgb(52, 58, 64);
+  text-align: center;
+  color: white;
+  width: 100%;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: .25rem;
+  margin-top: 3rem;
+}
+
+.footer-info {
+  text-align: center;
+  border-top: antiquewhite;
+  margin-top: 1rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+}
+
+/* -------------COMPONENTS------------------ */
+
+.button {
+  margin-top: 55px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.content-container {
+  min-height: calc(100vh - 120px);
+}
+
+/* Hero */
 
 .big-image {
   height: 100vh;
@@ -28,7 +82,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.70);
+  background: rgba(0, 0, 0, 0.55);
   color: white;
   display: flex;
   align-items: center;
@@ -43,7 +97,7 @@
 }
 
 .social {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   margin: auto;
   display: inline-flex;
@@ -52,20 +106,11 @@
 
 .logo {
   margin: auto;
-  width: fit-content;
-  height: fit-content;
+  width: 16rem;
+  height: 15rem;
 }
 
-.nav-menu {
-  margin-left: auto;
-}
-
-.heading {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  color: gray;
-}
+/* Services */
 
 .services {
   color: white;
@@ -73,17 +118,63 @@
   margin-top: 0;
 }
 
-.button {
-  margin-top: 55px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+/* About */
+
+.about-card {
+  margin: auto;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.icon {
-  font-size: 60px;
+.about-text {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+.profile {
+  max-height: max-content;
+  max-width: min-content;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Portfolio */
+
+.portfolio {
+  margin: auto;
+}
+
+/* Website */
+
+.websites {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #DCDCDC;
+  background-color: whitesmoke;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.proj-image {
+  height: 15rem;
+  width: 16rem;
+}
+
+.proj_button{
+  display: inline;
+  margin: auto;
+}
+
+
+/* Contact */
 
 .contact {
   text-align: center;
@@ -113,82 +204,4 @@
   display: block;
   text-align: center;
   margin-top: 3rem;
-}
-
-.content-container {
-  min-height: calc(100vh - 120px);
-}
-
-.footer-info {
-  text-align: center;
-  border-top: antiquewhite;
-  margin-top: 1rem;
-}
-
-.copyright {
-  margin-top: 2rem;
-}
-
-.footer {
-  background-color: rgb(52, 58, 64);
-  text-align: center;
-  color: white;
-  width: 100%;
-  position: relative;
-  padding-top: 2rem;
-  padding-bottom: .25rem;
-  margin-top: 3rem;
-}
-
-.submit {
-  text-align: center;
-}
-
-.websites {
-  height: 25rem;
-  width: 18rem;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: #DCDCDC;
-  background-color: whitesmoke;
-  border-style: solid;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  border-radius: 15px;
-}
-
-.proj-image {
-  height: 15rem;
-  width: 16rem;
-}
-
-.portfolio {
-  margin: auto;
-}
-
-.button-card {
-  margin: auto;
-  text-align: center;
-}
-
-.about-card {
-  margin: auto;
-  margin-top: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.about-text {
-  margin: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.profile {
-  max-height: max-content;
-  max-width: min-content;
-  margin: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }

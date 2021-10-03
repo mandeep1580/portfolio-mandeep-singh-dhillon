@@ -13,11 +13,11 @@ export default class Hero extends Component {
                 <div className="big-image">
                     <div className="overlay">
                         <Row className="hero-content ">
-                            <div className="col-lg-12 col-md-12 col-sm-6">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <img className="logo" src="images/logo.png" alt="logo" />
                                 <h1>Mandeep Dhillon</h1>
                             </div>
-                            <div className="col-lg-12 col-md-12 col-sm-6">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <Link className="social"
                                     href="https://www.linkedin.com/in/mandeep-singh-dhillon/"><AiOutlineLinkedin />
                                 </Link>
