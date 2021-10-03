@@ -4,7 +4,6 @@ import { Row } from 'react-bootstrap'
 // import Button from 'react-bootstrap/Button'
 // import Link from "react-bootstrap/NavLink"
 
-
 export default class Portfolio extends Component {
     render() {
         return (
