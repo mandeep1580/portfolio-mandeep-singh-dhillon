@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d6f3209.chunk.css",
+    "main.js": "/static/js/main.80532ce2.chunk.js",
+    "main.js.map": "/static/js/main.80532ce2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fadcddce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fadcddce.js.map",
+    "static/css/2.25a70f59.chunk.css": "/static/css/2.25a70f59.chunk.css",
+    "static/js/2.d00e5b03.chunk.js": "/static/js/2.d00e5b03.chunk.js",
+    "static/js/2.d00e5b03.chunk.js.map": "/static/js/2.d00e5b03.chunk.js.map",
+    "static/js/3.d849ebc3.chunk.js": "/static/js/3.d849ebc3.chunk.js",
+    "static/js/3.d849ebc3.chunk.js.map": "/static/js/3.d849ebc3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.25a70f59.chunk.css.map": "/static/css/2.25a70f59.chunk.css.map",
+    "static/css/main.3d6f3209.chunk.css.map": "/static/css/main.3d6f3209.chunk.css.map",
+    "static/js/2.d00e5b03.chunk.js.LICENSE.txt": "/static/js/2.d00e5b03.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/banner.7188872e.jpg",
+    "static/media/bcit.7a08de5b.png": "/static/media/bcit.7a08de5b.png",
+    "static/media/harvard.4734ae06.png": "/static/media/harvard.4734ae06.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fadcddce.js",
+    "static/css/2.25a70f59.chunk.css",
+    "static/js/2.d00e5b03.chunk.js",
+    "static/css/main.3d6f3209.chunk.css",
+    "static/js/main.80532ce2.chunk.js"
+  ]
+}
