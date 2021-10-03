@@ -10,8 +10,8 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID,
-      form.current, process.env.REACT_APP_USER_ID)
+    emailjs.sendForm("service_1569nb4", "template_cvcgt2l",
+      form.current, "user_a8E2dpgH7xvoSo2YIDtOd")
       .then((result) => {
         console.log(result.text);
       }, (error) => {
