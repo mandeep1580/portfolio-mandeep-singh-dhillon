@@ -148,7 +148,7 @@
   height: 25rem;
   width: 18rem;
   margin-top: 40px;
-  margin-bottom: auto;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   border-color: #DCDCDC;
@@ -159,7 +159,12 @@
   border-radius: 15px;
 }
 
-.portfolio{
+.proj-image {
+  height: 15rem;
+  width: 16rem;
+}
+
+.portfolio {
   margin: auto;
 }
 
@@ -187,4 +192,3 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
