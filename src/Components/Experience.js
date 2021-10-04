@@ -117,14 +117,14 @@ export default class Experience extends Component {
                 boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
               }}
             >
-              <h3 style={{ color: '#61b8ff' }}>Executive - Customer Care</h3>
-              <h4 style={{ color: '#61b8ff' }}>EXL Service Pvt. Ltd</h4>
+              <h3 style={{ color: '#61b8ff' }}>Executive - Front Office</h3>
+              <h4 style={{ color: '#61b8ff' }}>Le Meridian</h4>
               <hr></hr>
               <p>
-                <strong>Telemarketing for home equity loans.</strong>
+                <strong>Font desk services</strong>
               </p>
               <p>
-                •	Lead generation for refinancing home equity loansoffered by a US based insurance company.
+                Guest services for the elite clientele at the club floor including the presidential suite.
               </p>
             </TimelineItem>
           </Timeline>
