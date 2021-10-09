@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
                         <Websites
                             img="images/walkabooks.png"
                             name="Walkabooks"
-                            tech="Front End - Angular"
+                            tech="Front End - HTML, CSS and JS"
                             website="https://walkabooks.netlify.app"
                             github="https://github.com/mandeep1580/front-end-project-group6-front-end-project.git"
                         />
