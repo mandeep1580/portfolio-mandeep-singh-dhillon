@@ -13,13 +13,14 @@ export default class Portfolio extends Component {
                         <h1>Portfolio</h1>
                     </div>
                     <Row className="portfolio">
-                        <Websites
+                        {/* Work in progress for the movie app, fixing the dos attack bug */}
+                        {/* <Websites
                             img="images/tmdb.png"
                             name="The Movie App"
                             tech=" Api based app - React"
                             website="https://determined-mcclintock-b7a166.netlify.app/"
                             github="https://github.com/mandeep1580/my-movie-app"
-                        />
+                        /> */}
                         <Websites
                             img="images/walkabooks.png"
                             name="Walkabooks"
