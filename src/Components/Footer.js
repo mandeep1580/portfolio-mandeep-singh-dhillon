@@ -11,12 +11,9 @@ export default class Footer extends Component {
                 <Link href="https://github.com/mandeep1580" className="social" ><AiOutlineGithub /> </Link>
 
                 <div className="footer-info">
-                    <i>+778-814-3204</i>
                     <br></br>
-                    <a href="mailto:mandeep15@gmail.com">mandeep15@gmail.com</a>
                     <br></br>
-                    <i>7180, 11th Avenue, Burnaby, Vancouver, BC</i>
-                </div>
+                    </div>
                 <p className="copyright text-muted"> &copy; 2020 Mandeep Dhillon </p>
             </footer>
         )
