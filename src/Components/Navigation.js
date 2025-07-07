@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default class Navigation extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect expand="xxl" className="bg-body-tertiary" sticky="top"> 
+            <Navbar collapseOnSelect expand="xxl" className="navbar" variant="light" sticky="top"> 
                 <Container>
                     <Navbar.Brand href="/">Mandeep Dhillon</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />

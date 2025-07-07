@@ -9,8 +9,6 @@
 
 .heading {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
   color: gray;
 }
 
@@ -24,9 +22,14 @@
 
 /* Navigation and Footer */
 
+.navbar {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+}
 .nav-menu {
   margin-left: auto;
   text-decoration-color: #DCDCDC;
+  background-color: rgb(255, 255, 255);
 }
 
 .nav.link {
@@ -34,26 +37,29 @@
   text-decoration: none;
   font-weight: bold;
 }
-
 .footer {
-  background-color: rgb(52, 58, 64);
+  /* padding: 40px; */
   text-align: center;
-  color: white;
-  width: 100%;
-  position: relative;
-  padding-top: 2rem;
-  padding-bottom: .25rem;
-  margin-top: 3rem;
 }
 
-.footer-info {
-  text-align: center;
-  border-top: antiquewhite;
-  margin-top: 1rem;
+.social {
+  font-size: 30px;
+  color: gray;
+  margin: auto;
+  display: inline-flex;
+  /* width: fit-content; */
+  padding: 15px;
 }
 
 .copyright {
-  margin-top: 2rem;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: auto;
+  display: inline-flex;
+  margin-top: 25px;
+  margin-right: 0px;
+  margin-left: 0px;
+  /* padding-top: 10px; */
 }
 
 /* -------------COMPONENTS------------------ */
@@ -71,42 +77,30 @@
 }
 
 .content-container {
-  min-height: calc(100vh - 120px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 /* Hero */
 
 .big-image {
-  height: 100vh;
-  width: inherit;
-  background-image: url("../src/images/banner.jpg");
-}
-
-.overlay {
-  position: absolute;
   height: 100%;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.65);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #ffffff;
+  background-image: url("../src/images/banner2.jpg");
 }
 
-.hero-content {
-  margin: auto;
-  text-align: center;
-  width: fit-content;
-  display: block;
-}
-
-.social {
-  font-size: 40px;
-  color: white;
-  margin: auto;
-  display: inline-flex;
-  width: fit-content;
-}
 
 .logo {
   margin: auto;
