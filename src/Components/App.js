@@ -17,9 +17,7 @@ export default class App extends Component {
       <div className="App">
         <Router>
           <Navigation />
-          <Route path="/" exact>
-            <Hero />
-          </Route>
+          <Route path="/" exact><Hero /></Route>
           <Route path="/portfolio"><Portfolio /></Route>
           <Route path="/about"><About /></Route>
           <Route path="/experience"><Experience /></Route>

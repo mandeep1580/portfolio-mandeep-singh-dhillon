@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import Link from 'react-bootstrap/NavLink';
 import { Row } from 'react-bootstrap';
