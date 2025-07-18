@@ -22,6 +22,7 @@
     "react-dotenv": "^0.1.3",
     "react-icons": "^4.1.0",
     "react-native-image-overlay": "^0.1.2",
+    "react-script": "^2.0.5",
     "react-scripts": "^4.0.3",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",

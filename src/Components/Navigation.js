@@ -8,7 +8,15 @@ export default class Navigation extends Component {
         return (
             <Navbar collapseOnSelect expand="xxl" className="navbar" variant="light" sticky="top"> 
                 <Container>
-                    <Navbar.Brand href="/">Mandeep Dhillon</Navbar.Brand>
+                    <Navbar.Brand href="/">
+                        <img
+                            src="./images/Logo.png"
+                            width="40"
+                            height="40"
+                            className="d-inline-block align-top"
+                            alt="Mandeep Singh Dhillon Logo"
+                        />
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="nav-menu">
