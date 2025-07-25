@@ -11,10 +11,46 @@ export default class Experience extends Component {
           <div className="heading">
             <h1>Experience</h1>
           </div>
-
           <Timeline lineColor={'#000000'}>
             <TimelineItem
-              dateText="09/2006 – Present"
+              dateText="11/2021 – Present"
+              dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+              bodyContainerStyle={{
+                background: '#ddd',
+                padding: '20px',
+                borderRadius: '8px',
+                boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+              }}
+            >
+              <h3 style={{ color: '#61b8ff' }}>Intermediate Quality Analyst</h3>
+              <h4 style={{ color: '#61b8ff' }}>Jostle Corporation</h4>
+              <hr></hr>
+              <p>
+                <strong> Oversee the release management lifecycle for Jostle's microservice-based applications
+                and drive collaboration between development, QA, and operations teams.</strong>
+              </p>
+              Lead and coordinate microservice release planning, scheduling, and execution, ensuring
+              alignment with product roadmaps and business objectives.
+              Oversee development and maintenance of the automated release pipelines to enable
+              continuous integration and continuous delivery (CI/CD) of microservices.
+              Collaborate closely with software developers, QA engineers, DevOps, and product managers
+              to identify risks, resolve release blockers, and ensure deployment readiness.
+              Oversee version control practices, configuration management, and environment setup
+              across multiple cloud and on-premise platforms.
+              Monitor and manage deployment health, rollback procedures, and post-release validation to
+              minimize downtime and service disruptions.
+              Facilitate release communication and documentation, providing clear status updates to
+              technical teams and business stakeholders.
+              Implement best practices for release governance, quality assurance, and process
+              improvement within Agile delivery frameworks.
+              Troubleshoot complex issues related to microservice APIs, dependencies, connectivity, and
+              security during deployment cycles
+              <p>
+              </p>
+            </TimelineItem>
+
+            <TimelineItem
+              dateText="09/2006 – 09/2021"
               dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
               bodyContainerStyle={{
                 background: '#ddd',
@@ -30,15 +66,15 @@ export default class Experience extends Component {
                 <strong>Organisational behaviour consultant, experiential learning trainer, project manager and expedition leader.</strong>
               </p>
               <p>
-                •	Identify, analyse and improve the organisations’ culture via policies, procedures and coordinate the development cycle of the projects.
-                •	Conduct employee surveys and create reports to asses the effectiveness of change through trainings and engagement activities.
-                •	Build performance management systems for tracking the development cycle and impact analysis.
-                •	Create and manage member participants related to the various stages of the projects.
-                •	Work closely with the sponsors and team leaders to successfully complete the projects.
-                •	Effectively and accurately communicate project information to the team leaders and provide relevant updates to the sponsor via communication charts and tools.
-                •	Design and conduct experiential learning workshops based on teamwork, leadership, communication, risk management and mitigation processes, time management and importance of on-time delivery.
-                •	Assess, evaluate risks and incorporatecomprehensive risk management planfor expeditions based on extreme adventure sports.
-                •	Create collaterals and build effective public relations, media, social media and marketing campaigns.
+                Identify, analyse and improve the organisations’ culture via policies, procedures and coordinate the development cycle of the projects.
+                Conduct employee surveys and create reports to asses the effectiveness of change through trainings and engagement activities.
+                Build performance management systems for tracking the development cycle and impact analysis.
+                Create and manage member participants related to the various stages of the projects.
+                Work closely with the sponsors and team leaders to successfully complete the projects.
+                Effectively and accurately communicate project information to the team leaders and provide relevant updates to the sponsor via communication charts and tools.
+                Design and conduct experiential learning workshops based on teamwork, leadership, communication, risk management and mitigation processes, time management and importance of on-time delivery.
+                Assess, evaluate risks and incorporatecomprehensive risk management planfor expeditions based on extreme adventure sports.
+                Create collaterals and build effective public relations, media, social media and marketing campaigns.
               </p>
             </TimelineItem>
             <TimelineItem
@@ -58,9 +94,9 @@ export default class Experience extends Component {
                 <strong>Quality assurance for voice and data based contact centre operations.</strong>
               </p>
               <p>
-                •	Deploy Quality Assurance framework for all voice processes
-                •	Shortlist/Hire and train Quality Compliance Analysts to deliver transactional quality scores and qualitativeanalysis
-                •	Partner with operations to drive improvement initiatives based on Six Sigma.
+                Deploy Quality Assurance framework for all voice processes
+                Shortlist/Hire and train Quality Compliance Analysts to deliver transactional quality scores and qualitativeanalysis
+                Partner with operations to drive improvement initiatives based on Six Sigma.
               </p>
             </TimelineItem>
 
@@ -81,8 +117,8 @@ export default class Experience extends Component {
                 <strong>Call monitoring for outbound telemarketing, inbound technology support and insurance policies.</strong>
               </p>
               <p>
-                •	Evaluate transactions and provide feedback to customer care executives.
-                •	Prepare and maintain quality reports, conduct training sessions on quality standards for associates and identify training needs.
+                Evaluate transactions and provide feedback to customer care executives.
+                Prepare and maintain quality reports, conduct training sessions on quality standards for associates and identify training needs.
               </p>
             </TimelineItem>
 
@@ -103,7 +139,7 @@ export default class Experience extends Component {
                 <strong>Telemarketing for home equity loans.</strong>
               </p>
               <p>
-                •	Lead generation for refinancing home equity loansoffered by a US based insurance company.
+                Lead generation for refinancing home equity loansoffered by a US based insurance company.
               </p>
             </TimelineItem>
 
@@ -133,10 +169,9 @@ export default class Experience extends Component {
               <Button variant="primary">Download Resume</Button>
             </Link>
           </div>
-          <hr className="page-break"></hr>
         </div>
       </div>
-
     )
   }
 }
+
