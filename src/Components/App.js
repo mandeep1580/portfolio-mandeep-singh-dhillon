@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import Hero from './Hero'
 import Navigation from './Navigation'
 import 'bootstrap/dist/css/bootstrap.min.css'
