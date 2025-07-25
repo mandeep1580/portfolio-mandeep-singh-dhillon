@@ -9,20 +9,21 @@ import Card from 'react-bootstrap/Card'
 export default class Websites extends Component {
     render() {
         return (
-            <Card className="websites col-lg-3 col-md-6 col-sm-12">
+            <Card className="websites col-lg-12 col-md-12 col-sm-12">
                 <img className= "proj-image" src={this.props.img} alt="" />
                 <hr></hr>
                 <h5 className="text-muted mt-1">{this.props.name}</h5>
                 <p className="text muted mt-1">{this.props.tech}</p>
                 <Row className="proj_button">
                     <Link href={this.props.website}>
-                        <Button variant="success"> <AiOutlineLink />Visit Site</Button>
+                        <Button className="proj_button" variant="info"> <AiOutlineLink />Visit Site</Button>
                     </Link>
                     <Link href={this.props.github}>
-                        <Button variant="dark"> <AiOutlineGithub />Github</Button>
+                        <Button className="proj_button" variant="dark"> <AiOutlineGithub />Github</Button>
                     </Link>
                 </Row>
             </Card>
-        )
+        );
+        
     }
 }
