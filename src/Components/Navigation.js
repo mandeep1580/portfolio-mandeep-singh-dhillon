@@ -2,6 +2,7 @@ import { Component } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../images/logo.png';
 
 export default class Navigation extends Component {
     render() {
@@ -10,9 +11,9 @@ export default class Navigation extends Component {
                 <Container>
                     <Navbar.Brand href="/">
                         <img
-                            src="./images/Logo.png"
-                            width="40"
-                            height="40"
+                            src={logo}
+                            width="50"
+                            height="50"
                             className="d-inline-block align-top"
                             alt="Mandeep Singh Dhillon Logo"
                         />
