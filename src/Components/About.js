@@ -21,11 +21,12 @@ export default class About extends Component {
                         <div className="about-text col-lg-8 col-md-6 col-sm-12">
                             <strong>Overview:</strong>
                             <ul>
-                                <li>Focused software developer with strong foundation in full stack web development and experience
-                                    programming on various platforms.</li>
-                                <li>Management professional and entrepreneur with over 20 years of working experience.</li>
-                                <li>Conducted 5000+ man-hours in experiential learning workshops with covering over 7,000
-                                    participants.</li>
+                                Seasoned Software professional with over 25 years of expertise in project
+                                management, quality assurance, release management, and risk assessment.
+                                Renowned for visionary leadership and innovative problem-solving, with a proven
+                                ability to bridge technical and strategic objectives. Highly skilled in Release Management,
+                                Git versioning,Web API development, MySQL administration, and fostering collaborative team
+                                environments.
                             </ul>
                             <strong>Strengths:</strong>
                             <ul>
@@ -38,6 +39,8 @@ export default class About extends Component {
                             <img src="images/self.jpg" alt="Mandeep Profile" />
                         </div>
                     </Row>
+
+                    <br className="page-break"></br>
 
                     <div className="heading">
                         <h3>Alumnus</h3>
