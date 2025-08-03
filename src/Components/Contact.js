@@ -1,17 +1,18 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import emailjs from 'emailjs-com';
-require('dotenv').config();
-
 
 export const Contact = () => {
 
   const form = useRef();
 
+  emailjs.init("BwRa7vgVvc53Vdj6n");
+  
+  // Function to send email
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_1569nb4", "template_cvcgt2l",
-      form.current, "user_a8E2dpgH7xvoSo2YIDtOd")
+    emailjs.sendForm("service_57xlkyu", "template_yscv19b",
+      form.current, "BwRa7vgVvc53Vdj6n")
       .then((result) => {
         console.log(result.text);
       }, (error) => {
