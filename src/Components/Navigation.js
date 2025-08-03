@@ -22,7 +22,7 @@ export default class Navigation extends Component {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="nav-menu">
                             <Nav.Link href="/about">About Me</Nav.Link>
-                            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                            {/* <Nav.Link href="/portfolio">Portfolio</Nav.Link> */}
                             <Nav.Link href="/experience">Experience</Nav.Link>
                             <Nav.Link href="/contact">Contact</Nav.Link>
                         </Nav>

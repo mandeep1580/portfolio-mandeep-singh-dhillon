@@ -124,11 +124,11 @@
   flex-direction: column;             /* Stack items vertically */
   align-items: center;                /* Center items horizontally */
   justify-content: center;            /* Center items vertically */
-  padding: 30px;                      /* Add some padding */
+  padding: 15px;                      /* Add some padding */
   text-align: left;                 /* Center text */
   background-color: white;
   margin-right: auto;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-bottom: auto;
   font-size: large;
 }
