@@ -165,7 +165,7 @@ export default class Experience extends Component {
             </TimelineItem>
           </Timeline>
           <div className="button">
-            <Link href="https://drive.google.com/file/d/1-Vpi4taaxkM8kfI7g9763QhngLSz-fQb/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1JPZPQo0W1STMfKLGhgnX1qcwBQcl9BH0/view?usp=drive_link">
               <Button variant="primary">Download Resume</Button>
             </Link>
           </div>
